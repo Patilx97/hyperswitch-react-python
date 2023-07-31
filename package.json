@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-client": "react-scripts start",
-    "start-server": "python3 server.py",
+    "start-server": "export FLASK_APP=server.py && python3 -m flask run --port=4242",
     "start": "concurrently \"npm run start-client\" \"npm run start-server\""
   },
   "eslintConfig": {

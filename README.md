@@ -27,6 +27,9 @@ Don't have a Hyperswitch account? [Sign up here!](https://app.hyperswitch.io/reg
 ~~~
 npm install
 ~~~
+~~~
+pip install -r requirements.txt
+~~~
 
 3. Run the server :
 
